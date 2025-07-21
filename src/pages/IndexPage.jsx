@@ -2,14 +2,10 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Environment, ScrollControls } from '@react-three/drei';
 import MacContainer from '../components/MacContainer'; 
-import HeroSection from '../components/HeroSection';
 
 const IndexPage = () => {
   return (
     <div className='w-full'>
-      {/* Hero Section with Video */}
-      <HeroSection />
-      
       {/* 3D MacBook Section */}
       <div className='w-full h-screen relative'>
         <div className="absolute flex flex-col items-center text-white top-32 left-1/2 -translate-x-1/2 font-sans z-10"> 
