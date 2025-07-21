@@ -1,7 +1,8 @@
 import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Environment, ScrollControls } from '@react-three/drei';
-import MacContainer from '../components/MacContainer'; // Correct path
+import MacContainer from '../components/MacContainer'; 
+import HeroSection from '../components/HeroSection';
 
 const IndexPage = () => {
   return (
