@@ -3,8 +3,9 @@ import React from 'react';
 import { Group } from 'three';
 import * as THREE from 'three';
 import { useFrame } from '@react-three/fiber';
+
 const MacContainer = () => {
-    let model = useGLTF("./mac.glb");
+    let model = useGLTF("./mac.glb"); 
     let tex = useTexture("./red.jpg")
     let meshes = {};
     model.scene.traverse((e) => {
@@ -26,7 +27,7 @@ const MacContainer = () => {
     <group position={[0, -10, 20]}>
         <primitive object={model.scene}/>
     </group>
-  ) 
+  )
 }
 
-export default MacContainer
+export default MacContainer;
