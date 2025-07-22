@@ -6,7 +6,7 @@ import MacContainer from '../components/MacContainer';
 const IndexPage = () => {
   return (
     <div className='w-full'>
-      <div className='w-full h-screen relative'>
+      <div className='w-full h-screen'>
         <div className="absolute flex flex-col items-center text-white top-32 left-1/2 -translate-x-1/2 font-sans z-10"> 
           <h3 className='masked text-7xl tracking-tighter font-[650]'>macbook pro.</h3>
           <h5>Oh so pro! </h5>
